@@ -1,0 +1,36 @@
+.cart {
+    background: #eee;
+    padding: 1.5rem 0;
+}
+.cart .subtotal-card {
+    display: flex;
+    justify-content: center;
+}
+.empty-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8rem 0;
+}
+.empty-cart h1 {
+    font-size: 36px;
+    color: #0989ff;
+    margin-bottom: 1rem;
+}
+.empty-cart button {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.empty-cart button:hover {
+    scale: 0.9;
+}
+
+
+
+

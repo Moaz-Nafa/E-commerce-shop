@@ -1,0 +1,131 @@
+.free {
+    padding: 10px 30px;
+    background: #010f1c;
+    display: flex;
+}
+.free .icon {
+    color: #f3b123;
+    font-size: 32px;
+}
+.free p {
+    margin-left: 10px;
+    color: #f6f7f9;
+    margin-top: 8px;
+}
+
+.main-header {
+    padding: 10px 20px;
+    border-bottom: 2px solid black; 
+}
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo img {
+    width: 120px;
+    height: 100px;
+}
+.main-header .container .search-box {
+    margin-right: 30px;
+}
+.main-header .container .search-box input {
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid #0989ff;
+    width: 300px;
+    color: #010f1c;
+    font-size: 17px;
+}
+.main-header .container .search-box button {
+    outline: none;
+    border: 2px solid #0989ff;
+    padding: 11px 30px;
+    background: #0989ff;
+    color: white;
+    font-size: 18px;
+}
+.main-header .container .icons {
+    display: flex;
+    margin-right: 50px;
+}
+.main-header .container .icons .account {
+    display: flex;
+    margin-right: 30px;
+}
+.main-header .container .icons .account .user-icon {
+    margin-right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #0989ff;
+}
+.main-header .container .icons .account p{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.main-header .container .icons .scound-icon {
+    display: flex;
+}
+.main-header .container .icons .scound-icon .link {
+    margin-right: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #0989ff;
+}
+.header {
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .nav ul{
+    display: flex;
+}
+.header .container .nav ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+.header .container .nav ul li .link{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.3s;
+}
+.header .container .nav ul li .link:hover{
+    color: #0989ff;
+}
+.header .container .auth {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 65px;
+}
+.header .container .auth button{
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 950px) {
+    .main-header .search-box{
+      display: none;
+    }
+}
+  /*==================== MADIA QUERIES (SMALL DEVICES) ===================*/
+   @media screen and (max-width: 600px) {
+    .main-header .container .icons .account  {
+            display: none;
+
+    }
+} 
+  
+  
+
+
+
+
+
+
+

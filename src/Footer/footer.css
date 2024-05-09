@@ -1,0 +1,114 @@
+.footer {
+    background: #ecf2f9;
+    width: 100%;
+    padding: 10px 40px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.footer .about {
+    max-width: 500px;
+}
+.footer .about .logo {
+    width: 150px;
+    height: 100px;
+}
+.footer .about .details p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #010f1c;
+}
+.footer .about .details .icons{
+    margin-top: 20px;
+    display: flex;
+}
+.footer .about .details .icons li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 11px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.footer .about .details .icons li:hover {
+    background: #0989ff;
+    color: #fff; 
+}
+.footer .account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.footer .account h3 {
+    font-size: 32px;
+    color: #010f1c;
+}
+.footer .account ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .account ul li{
+    margin-top: 5px;
+    color: #010f1c;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer .account ul li:hover {
+   color: #0989ff;
+}
+.footer .page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.footer .page h3 {
+    font-size: 32px;
+    color: #010f1c;
+}
+.footer .page ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer .page ul li{
+    margin-top: 5px;
+    color: #010f1c;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer .page ul li:hover {
+   color: #0989ff;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 900px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

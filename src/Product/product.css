@@ -1,0 +1,94 @@
+.main-product .container {
+    width: 400px;
+    height: 545px;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e0e0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.main-product .container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main-product .product-image {
+    border-bottom: 1px solid #e2e0e0;
+}
+.main-product .product-image img{
+    width: 320px;
+    height: 320px;
+    transition: 0.4s;
+}
+.main-product:hover img {
+    scale: 1.1;
+}
+.main-product .product-info {
+    margin-top: 20px;
+} 
+.main-product .product-info h3{
+    color: #010f1c;
+    margin: 5px 0;
+    font-size: 24px;
+    transform: 0.3s;
+} 
+.main-product .product-info h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #0989ff;
+    letter-spacing: 1px;
+} 
+.main-product .product-info p{
+    color: #9a9a9a;
+    font-size: 20px;
+} 
+.main-product:hover .product-info h3{
+    color: #0989ff;
+}
+.main-product .add-to-basket {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: #0989ff;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+.main-product .add-to-basket:hover  {
+    scale: 0.9;
+}
+.main-product .add-to-basket button{
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.main-product li{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.main-product .container .link {
+    text-decoration: none;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1300px) {
+    .main-product .container{
+        width: 340px;
+        padding: 8px 8px;
+    }
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1075px) {
+    .main-product .container{
+        width: 400px;
+        padding: 8px 20px;
+    }
+}

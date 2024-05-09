@@ -1,0 +1,86 @@
+.headphone-products {
+    padding: 30px 40px;
+    display: flex;
+}
+.headphone-products h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #010f1c;
+}
+.headphone-products p {   
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+.headphone-products .filter .categories h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.headphone-products .filter .categories li {
+    font-size: 26px;
+    padding-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+   
+}
+.headphone-products .filter .categories li .link {
+    text-decoration: none;
+    color: #010f1c;
+}
+.headphone-products .filter .categories li:hover {
+    color: #0989ff;
+}
+/*================= End Headphone Products ======================*/
+/*================= Start Headphone Category ======================*/
+.headphone-cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.headphone-products .headphone-cat article{   
+    margin-left: 50px;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1150px) {
+    .headphone-products{
+       padding: 30px 0;
+    }
+    .headphone-products .filter{
+       padding-left: 15px;
+    }
+    .headphone-products .headphone-cat article {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 700px) {
+    .headphone-products {
+       padding: 30px 40px;
+       flex-direction: column;
+       margin: auto;
+    }
+    .headphone-products .filter{
+       margin-bottom: 30px;
+    }
+    .headphone-products .headphone-cat article {
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+.cart-products {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.5rem 2rem;
+    background: #fff;
+    gap: 2rem;
+}
+.cart-products .cart-image {
+    width: 400px;
+    height: 400px;
+}
+.cart-products .cart-image img {
+    width: 100%;
+    height: 100%;
+    margin: 1rem ;
+}
+.cart-products .cart-info h3{
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+.cart-products .cart-info p{
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+.cart-products .cart-info h4{
+    font-size: 22px;
+    padding-bottom: 5px;
+    color: #0989ff;
+}
+.cart-products .cart-info button{
+    background: #0989ff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #fff;
+    transition: 0.4s;
+}
+.cart-products .cart-info button:hover {
+    scale: 0.9;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 900px) {
+    .cart-products {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cart-products .cart-info button {
+        margin-bottom: 1.5rem;
+    }
+}

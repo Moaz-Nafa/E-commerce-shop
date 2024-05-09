@@ -1,0 +1,87 @@
+.watch-products {
+    padding: 30px 40px;
+    width: 100%;
+    display: flex;
+}
+.watch-products h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #010f1c;
+}
+.watch-products p {   
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+.watch-products .filter .categories h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.watch-products .filter .categories li {
+    font-size: 26px;
+    padding-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.watch-products .filter .categories li .link {
+    text-decoration: none;
+    color: #010f1c;
+}
+.watch-products .filter .categories li:hover {
+    color: #0989ff;
+}
+/*================= End Tablet Products ======================*/
+/*================= Start Tablet Category ======================*/
+.watch-cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.watch-cat article {   
+    margin-left: 50px;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1150px) {
+    .watch-products{
+       padding: 30px 0;
+    }
+    .watch-products .filter{
+       padding-left: 15px;
+    }
+    .watch-products .watch-cat article {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 700px) {
+    .watch-products {
+       padding: 30px 40px;
+       flex-direction: column;
+       margin: auto;
+    }
+    .watch-products .filter{
+       margin-bottom: 30px;
+    }
+    .watch-products .watch-cat article {
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

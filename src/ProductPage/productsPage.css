@@ -1,0 +1,68 @@
+.products {
+    padding: 30px 40px;
+    display: flex;
+}
+.products h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #010f1c;
+}
+.products p {   
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+.filter .categories h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.filter .categories li {
+    font-size: 26px;
+    padding-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.filter .categories li .link {
+    text-decoration: none;
+    color: #010f1c;
+}
+.filter .categories li:hover {
+    color: #0989ff;
+}
+
+.products .product-cat  {   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.products .product-cat article {
+    margin-left: 50px;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1150px) {
+    .products{
+       padding: 30px 0;
+    }
+    .products .filter{
+       padding-left: 15px;
+    }
+    .products .product-cat article {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .products {
+       padding: 30px 40px;
+       flex-direction: column;
+       margin: auto;
+    }
+    .products .filter{
+       margin-bottom: 30px;
+    }
+    .products .product-cat article {
+        margin: auto;
+    }
+}

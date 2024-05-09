@@ -1,0 +1,88 @@
+.camira-products {
+    padding: 30px 40px;
+    display: flex;
+}
+.camira-products h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #010f1c;
+}
+.camira-products p {   
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+
+.camira-products .filter .categories h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.camira-products .filter .categories li {
+    font-size: 26px;
+    padding-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.camira-products .filter .categories li .link {
+    text-decoration: none;
+    color: #010f1c;
+}
+.camira-products .filter .categories li:hover {
+    color: #0989ff;
+}
+/*================= End Tablet Products ======================*/
+/*================= Start Tablet Category ======================*/
+.camira-cat {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.camira-cat article {
+    margin-left: 50px;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1150px) {
+    .camira-products{
+       padding: 30px 0;
+    }
+    .camira-products .filter{
+       padding-left: 15px;
+    }
+    .camira-products .camira-cat article {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 700px) {
+    .camira-products {
+       padding: 30px 40px;
+       flex-direction: column;
+       margin: auto;
+    }
+    .camira-products .filter{
+       margin-bottom: 30px;
+    }
+    .camira-products .camira-cat article {
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

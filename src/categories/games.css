@@ -1,0 +1,86 @@
+.games-products {
+    padding: 30px 40px;
+    display: flex;
+}
+.games-products h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #010f1c;
+}
+.games-products p {   
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+.games-products .filter .categories h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.games-products .filter .categories li {
+    font-size: 26px;
+    padding-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.games-products .filter .categories li .link {
+    text-decoration: none;
+    color: #010f1c;
+}
+.games-products .filter .categories li:hover {
+    color: #0989ff;
+}
+/*================= End Tablet Products ======================*/
+/*================= Start Tablet Category ======================*/
+.games-cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.games-cat article {
+    margin-left: 50px;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1150px) {
+    .games-products{
+       padding: 30px 0;
+    }
+    .games-products .filter{
+       padding-left: 15px;
+    }
+    .games-products .games-cat article {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 700px) {
+    .games-products {
+       padding: 30px 40px;
+       flex-direction: column;
+       margin: auto;
+    }
+    .games-products .filter{
+       margin-bottom: 30px;
+    }
+    .games-products .games-cat article {
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

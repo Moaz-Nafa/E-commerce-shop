@@ -1,0 +1,87 @@
+.labtop-products {
+    padding: 30px 40px;
+    width: 100%;
+    display: flex;
+}
+.labtop-products h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #010f1c;
+}
+.labtop-products p {   
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+.labtop-products .filter .categories h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.labtop-products .filter .categories li {
+    font-size: 26px;
+    padding-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.labtop-products .filter .categories li .link {
+    text-decoration: none;
+    color: #010f1c;
+}
+.labtop-products .filter .categories li:hover {
+    color: #0989ff;
+}
+/*================= End Tablet Products ======================*/
+/*================= Start Tablet Category ======================*/
+.labtop-cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.labtop-cat article {   
+    margin-left: 50px;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1150px) {
+    .labtop-products{
+       padding: 30px 0;
+    }
+    .labtop-products .filter{
+       padding-left: 15px;
+    }
+    .labtop-products .labtop-cat article {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 700px) {
+    .labtop-products {
+       padding: 30px 40px;
+       flex-direction: column;
+       margin: auto;
+    }
+    .labtop-products .filter{
+       margin-bottom: 30px;
+    }
+    .labtop-products .labtop-cat article {
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

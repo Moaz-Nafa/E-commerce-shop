@@ -1,0 +1,209 @@
+.top-banner .container {
+    padding: 30px 40px;
+    background: #e3edf6; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-banner .container .detail{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.top-banner .container .detail h2{
+    margin-right: 50%;
+    font-size: 52px;
+    color: #010f1c;
+    margin-bottom: 20px;
+}
+.top-banner .container .detail .link{
+    padding: 10px 20px;
+    color: #010f1c;
+    border-radius: 5px;
+    background: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.top-banner .container .detail .link:hover {
+    background: #0989ff;
+    color: #fff;
+}
+/*============= end top-banner ================*/
+/*============= start product-type ================*/
+.product-type {
+    padding: 30px 0;
+}
+.product-type .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-type .container .type-box{
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.product-type .container .type-box .img-box{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background: #e8f4ff;
+    cursor: pointer;
+}
+.product-type .container .type-box .img-box img{
+    width: 150px;
+    height: 180px;
+    margin-top: 40px;
+    margin-left: 25px;
+    padding-top: 20px;
+    transition: var(--transition);
+}
+.product-type .container .type-box .img-box:hover img{
+    transform: scale(1.3);
+}
+.product-type .container .type-box .details{
+    text-align: center;
+}
+.product-type .container .type-box .details p{
+    margin-top: 10px;
+    color: #9a9a9a;
+}
+/*=========== end product-type =============*/
+/*=========== start about =============*/
+.about__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about__container .box{
+    padding: 20px;
+    background: #ecf2f7;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 8rem;
+}
+.about__container .box .icon{
+    color: #e44c8c;
+    font-size: 32px;
+    position: absolute;
+    top: 20px;
+}
+.about__container .box .details{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.about__container .box .details h3{
+    color: #010f1c;
+    margin-bottom: 15px;
+}
+.about__container .box .details p{
+    color: #9a9a9a;
+}
+/*=========== end about =============*/
+/*=========== start home products =============*/
+.home-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5rem auto;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1650px) {
+    .home-products {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin: 5rem auto;
+    }
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1080px) {
+    .home-products {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 850px) {
+    .home-products {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1024px) {
+    .top-banner .container {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    .top-banner .container .img-box {
+        margin-top: 40px;
+    }
+    .product-type .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+    } 
+    .product-type .container .type-box{
+        margin: 0 auto;
+    }
+    .about__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .about__container .box {
+        margin-bottom: 20px;
+      
+    }
+  }
+  /*==================== MADIA QUERIES (SMALL DEVICES) ===================*/
+  @media screen and (max-width: 600px) {
+    .top-banner .container .detail {
+        margin-left: 0;
+        text-align: center;
+    }
+    .top-banner .container .detail h2{
+        margin-right: 0;
+        font-size: 36px;
+    }
+    .top-banner .container .img-box {
+        margin-top: 30px;
+    }
+    .product-type .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+    .product-type .container .type-box{
+        margin: 0 auto;
+    }
+    .about__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
